@@ -1,6 +1,6 @@
 {
-  "name": "clf-parser",
-  "version": "0.0.2",
+  "name": "apache-log-parser",
+  "version": "0.0.2.1",
   "description": "A basic parser for the common log format seen in apache and nginx logs",
   "main": "index.js",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:jesusabdullah/node-clf-parser.git"
+    "url": "git@github.com:khastie/node-clf-parser.git"
   },
   "keywords": [
     "clf",
@@ -17,9 +17,24 @@
     "format",
     "parser"
   ],
-  "author": "Joshua Holbrook",
+  "author": "Kevin Hastie",
   "license": "MIT",
   "devDependencies": {
+    "express": "^4.11.2",
+    "grunt": "^0.4.5",
+    "grunt-cli": "^0.1.13",
+    "grunt-concurrent": "^1.0.0",
+    "grunt-contrib-copy": "^0.8.0",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-karma": "^0.10.1",
+    "grunt-phantom": "^0.2.1",
+    "grunt-sync": "^0.2.3",
+    "jasmine-core": "^2.2.0",
+    "karma": "^0.12.31",
+    "karma-chrome-launcher": "^0.1.7",
+    "karma-jasmine": "^0.3.5",
+    "karma-phantomjs-launcher": "^0.1.4",
+    "karma-script-launcher": "^0.1.0",
     "tap": "~0.4.3"
   }
 }
